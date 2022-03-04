@@ -7,20 +7,20 @@
 #80a300
 #2d3f01 */
 
-body{
+body {
   font-family: Montserrat;
   text-align: center;
   background-color: #ffdf30;
 }
-.container nav{
+.container nav {
   background-color: #ffdf30;
 }
 
-.navbar{
+.navbar {
   background-color: #ffdf30;
 }
 
-#navbarNav{
+#navbarNav {
   background-color: #ffdf30;
 }
 .navbar-brand {
@@ -28,20 +28,20 @@ body{
   padding: 20px;
   color: #ffdf30;
 }
-.brand-name{
+.brand-name {
   color: #ffdf30;
 }
 
-.nav-link{
+.nav-link {
   font-size: 20px;
   font-weight: 500;
 }
-.nav-item:hover{
+.nav-item:hover {
   border: 1px #2d3f01;
   border-radius: 10px;
   border-style: solid;
 }
-h1{
+h1 {
   color: #2d3f01;
   margin-top: 50px;
   font-weight:bolder;
@@ -53,7 +53,7 @@ h1{
   height: 100%;
 }
 
-.heading img{
+.heading img {
   height: 100px;
   width:100px;
 }
@@ -76,16 +76,16 @@ h1{
   margin-left: 22em;
 }
 
-.akan-form button{
+.akan-form button {
   background-color: #2d3f01;
   color: #ffdf30;
 }
 
-.home-link-section{
+.home-link-section { 
   padding-top: 20px;
   font-size: 20px;
 }
-.home-link-section a{
+.home-link-section a {
   text-decoration: none;
   font-size: 20px;
 }

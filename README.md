@@ -20,7 +20,7 @@
 * GIT/GITHUB.
 ## Support and contact details
 * IAN KARIUKI ian.kariuki@student.moringa.com
-* 
+* [Click here to visit the live site](https://ianmwema07.github.io/akan/)
 ### License
 **The MIT License (MIT)**
 Copyright (c) 2022 **Ian Kariuki**
