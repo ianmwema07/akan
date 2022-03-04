@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akan</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <span class="brand-name">Akan Names</span> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#akan-form">Know your Akan Name.</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      
+    </nav>
+    <section class="heading" id="home">
+      <img src="images/pot.jpg" alt="">
+      <h1>Akan Names Generator</h1>
+      <h3>What are Akan Names ?</h3>
+      <p>Akan names are derived from Ghanian culture. <br> Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.On this system, you will be required to input your date of birth and your sex in order and you'll receive an alert showing you your Akan name.</p>
+    </section>
+    <section class="akan-form" id="akan-form">
+      <h3>Fill in your details to find out your Akan Name.</h3>
+      <form class="date-form">
+        <div class="form-group">
+          <label for="exampleInputEmail1"><h3>Enter your date of birth</h3></label>
+          <input class="form-control col-4" type="date" id="dateOfBirth" name="trip-start" min="1900-04-12 max="2022-04-01">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1"><h3>Select your sex</h3></label><br>
+          <label for="male">Male</label><br>
+          <input class="form-control col-4" type="radio" id="male" name="fav_language" value="Male"><br>
+          <label for="male">Female</label><br>
+          <input class="form-control col-4" type="radio" id="female" name="fav_language" value="Female"><br>
+          
+        </div>
+        <button class="btn" onclick="display()">Submit</button>
+      </form>
+      <div class="home-link-section">
+        <a href="#home"><span class="mdi mdi-home"></span>&nbsp;Go Home</a> 
+      </div>
+    </section>
+    </div>
+  </div>
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
