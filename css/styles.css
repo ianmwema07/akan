@@ -1,18 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
 
+/* 
+#d19402
+#ffdf30
+#ffeaa4
+#80a300
+#2d3f01 */
+
 body{
   font-family: Montserrat;
   text-align: center;
+  background-color: #ffdf30;
+}
+.container nav{
+  background-color: #ffdf30;
+}
+.navbar{
+  background-color: #ffdf30;
 }
 
+#navbarNav{
+  background-color: #ffdf30;
+}
+.navbar-brand {
+  background-color: #2d3f01;
+  padding: 20px;
+  color: #ffdf30;
+}
+.brand-name{
+  color: #ffdf30;
+}
+
+.nav-link{
+  font-size: 20px;
+  font-weight: 500;
+}
 h1{
-  color: black;
+  color: #2d3f01;
   margin-top: 50px;
   font-weight:bolder;
-  font-size: 200px;
+  font-size: 8rem;
 }
 
 .heading {
-  background-color: yellow;
+  background-color: #ffdf30;
   height: 100%;
+}
+
+.heading img{
+  height: 100px;
+  width:100px;
+}
+
+.heading p {
+  padding: 1em;
+  background-color: #2d3f01;
+  color: #ffdf30;
+  border: 1px; border-style:solid;
+  font-size: 20px;
+  border-radius: 20px;
 }
