@@ -60,3 +60,12 @@ h1{
   font-size: 20px;
   border-radius: 10px;
 }
+
+.akan-form {
+  margin-top: 15em;
+  padding-bottom: 15em;
+}
+
+.form-group input {
+  margin-left: 22em;
+}
