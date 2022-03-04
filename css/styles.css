@@ -15,6 +15,7 @@ body{
 .container nav{
   background-color: #ffdf30;
 }
+
 .navbar{
   background-color: #ffdf30;
 }
@@ -36,7 +37,8 @@ body{
   font-weight: 500;
 }
 .nav-item:hover{
-  border-bottom: 3px #2d3f01;
+  border: 1px #2d3f01;
+  border-radius: 10px;
   border-style: solid;
 }
 h1{
@@ -77,4 +79,20 @@ h1{
 .akan-form button{
   background-color: #2d3f01;
   color: #ffdf30;
+}
+
+.home-link-section{
+  padding-top: 6em;
+  font-size: 20px;
+}
+.home-link-section a{
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.home-link-section a:hover {
+  border: 1px #2d3f01;
+  border-radius: 10px;
+  border-style: solid;
 }
