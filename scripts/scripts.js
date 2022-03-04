@@ -11,8 +11,6 @@ function display (){
  var maleAkanNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
  var femaleAkanNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
   if(sexMale == true){
-
-    
     if(dayOfTheWeek == 1) {
       // alert(maleAkanNames[0] + dayOfTheWeek);
       alert("You are male and you were born on Sunday therefore your Akan name is "+maleAkanNames[0]);
@@ -50,6 +48,8 @@ function display (){
     } else {
       alert("Invalid Entry");
     }
+  }else {
+    alert("invalid input: Kindly insert the date and also select your gender.");
   }
   
 }
