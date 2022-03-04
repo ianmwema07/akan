@@ -1,6 +1,3 @@
-# akan
-
-
 # Akan
 #### This is an Akan Names Generator Website
 #### By **Ian Kariuki**
