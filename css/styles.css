@@ -35,6 +35,10 @@ body{
   font-size: 20px;
   font-weight: 500;
 }
+.nav-item:hover{
+  border-bottom: 3px #2d3f01;
+  border-style: solid;
+}
 h1{
   color: #2d3f01;
   margin-top: 50px;
