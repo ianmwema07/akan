@@ -69,3 +69,8 @@ h1{
 .form-group input {
   margin-left: 22em;
 }
+
+.akan-form button{
+  background-color: #2d3f01;
+  color: #ffdf30;
+}
